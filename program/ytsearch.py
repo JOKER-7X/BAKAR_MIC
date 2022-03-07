@@ -8,7 +8,7 @@ from youtube_search import YoutubeSearch
 @Client.on_message(command(["search", f"بحث"]))
 async def ytsearch(_, message: Message):
     if len(message.command) < 2:
-        return await message.reply_text("/search **needs an argument !**")
+        return await message.reply_text("/search + اسم التي تريد بحث عنه !**")
     query = message.text.split(None, 1)[1]
     m = await message.reply_text("جاري البحث انتظر قليلآ...")
     results = YoutubeSearch(query, max_results=5).to_dict()
