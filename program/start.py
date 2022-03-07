@@ -100,7 +100,7 @@ async def start_(client: Client, message: Message):
 
 
 @Client.on_message(
-    command(["برمج السورس", f"ؤمن", f"ورس", f"لسورس", f"alive", f"اضو"]) & filters.group & ~filters.edited
+    command(["برمج السورس", f"ؤمن", f"ورس", f"لسورس", f"/alive", f"اضو"]) & filters.group & ~filters.edited
 )
 async def alive(client: Client, message: Message):
     current_time = datetime.utcnow()
