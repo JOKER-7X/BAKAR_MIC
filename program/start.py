@@ -58,14 +58,14 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **مرحبا عزيزي ↤ {message.from_user.mention()} !**\n
-🤖 **[𝑩𝑨𝑲𝑨𝑹 𝑴𝑼𝑺𝑰𝑪 🎶](https://t.me/bakar10_bot) 🎶**
+🤖 **[𝑩𝑨𝑲𝑨𝑹 𝑴𝑼𝑺𝑰𝑪 🎶](https://t.me/bakar10_bot) **
 💭 **انا بكار استطيع تشغيل الموسيقي والفيديو في محادثتك الصوتية**
 
 💡 تعلم طريقة تشغيلي واوامر التحكم بي عن طريق  » 📚 الاوامر !
 
 🔖 لتعلم طريقة تشغيلي بمجموعتك اضغط علي » ❓طريقة التفعيل !
 
- **⚡️𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 [𓆩  ݪــيدو 𓆪](https://t.me/J0KER7x) **
+ **⚡️𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 [𓆩  L𝐈𝐃𝐎⁦♡⁩ 𓆪](https://t.me/J0KER7x) **
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -100,7 +100,7 @@ async def start_(client: Client, message: Message):
 
 
 @Client.on_message(
-    command(["برمج السورس", f"ؤمن", f"ورس", f"لسورس", f"/alive", f"اضو"]) & filters.group & ~filters.edited
+    command(["برمج السورس", f"ؤمن", f"ورس", f"لسورس", f"alive", f"اضو"]) & filters.group & ~filters.edited
 )
 async def alive(client: Client, message: Message):
     current_time = datetime.utcnow()
@@ -123,7 +123,7 @@ async def alive(client: Client, message: Message):
         ]
     )
 
-    alive = f"⚡️𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 [𓆩  ݪــيدو 𓆪](https://t.me/J0KER7x) 𖡼\اهلا بك في سورس جوكر سفن اكس الجمدان 𖡼\nلو عايز تنصيب بوت ميوزك بأسعار حلوة  كلمني  𖡼"
+    alive = f"⚡️𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 [𓆩  ݪــيدو 𓆪](https://t.me/J0KER7x) \n اهلا بك في سورس جوكر سفن اكس الجمدان \n لو عايز تنصيب بوت ميوزك بأسعار حلوة  كلمني  "
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
