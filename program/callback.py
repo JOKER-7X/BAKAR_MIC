@@ -26,6 +26,7 @@ async def cbstart(_, query: CallbackQuery):
 
 🔖 لتعلم طريقة تشغيلي بمجموعتك اضغط علي » ❓طريقة التفعيل !
  
+ **⚡️𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 [𝙻𝙸𝙳𝙾](https://t.me/J0KER7x) **
 
 """,
         reply_markup=InlineKeyboardMarkup(
