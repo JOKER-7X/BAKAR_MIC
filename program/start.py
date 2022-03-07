@@ -123,7 +123,7 @@ async def alive(client: Client, message: Message):
         ]
     )
 
-    alive = f"⚡️𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 [𓆩  ݪــيدو 𓆪](https://t.me/J0KER7x) \n اهلا بك في سورس جوكر سفن اكس الجمدان \n لو عايز تنصيب بوت ميوزك بأسعار حلوة  كلمني  "
+    alive = f"⚡️𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 [𓆩  ݪــيدو 𓆪](https://t.me/J0KER7x) \nاهلا بك في سورس جوكر سفن اكس الجمدان \nلو عايز تنصيب بوت ميوزك بأسعار حلوة  كلمني  "
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
