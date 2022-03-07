@@ -1,7 +1,7 @@
 {
     "name": "Video x Music Stream Bot",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by PyTgCalls and Pyrogram",
-    "logo": "https://telegra.ph/file/9bbaad0df871373c92dd1.jpg",
+    "logo": "https://telegra.ph/file/786a1cee38308f08a74e1.jpg",
     "keywords": [
         "py-tgcalls",
         "telegram bot",
@@ -11,9 +11,9 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/FA9SH",
+    "website": "https://t.me/J0KER_7x",
     "repository": "https://github.com/USDDBOT/Shadow",
-    "success_url": "https://t.me/usddshad",
+    "success_url": "https://t.me/J0KER_7x",
     "env": {
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
@@ -35,7 +35,7 @@
         "ASSISTANT_NAME": {
             "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
             "required": true,
-            "value": "SHADOW_MUSIC0"
+            "value": "MRLido7x"
         },
         "SESSION_NAME": {
             "description": "قم بوضع كود تيرمكس هنا",
@@ -44,7 +44,7 @@
         "SUDO_USERS": {
             "description": "قم بوضع ايدي المطور الاساسي",
             "required": true,
-            "value": "1970797144"
+            "value": "776886547"
         },
         "MONGODB_URL": {
             "description": "ضع رابط mongodb لو م هتعرف تجيبو تع هنا @shadow49",
@@ -54,22 +54,22 @@
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
-            "value": "shadow49"
+            "value": "MusicJoker7x"
         },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": "FA9SH"
+            "value": "J0KER_7x"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
-            "value": "usddshad"
+            "value": "J0KER7x"
         },
         "ALIVE_NAME": {
             "description": "ضع هنا اسم الحساب المساعد",
             "required": true,
-            "value": "𝑺𝑯𝑨𝑫𝑶𝑾 𝑴𝑼𝑺𝑰𝑪"
+            "value": "𝑩𝑨𝑲𝑨𝑹 𝑴𝑼𝑺𝑰𝑪 🎶"
         }
     },
     "addons": [],
