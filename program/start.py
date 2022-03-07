@@ -100,7 +100,7 @@ async def start_(client: Client, message: Message):
 
 
 @Client.on_message(
-    command(["برمج السورس", f"ؤمن", f"ورس", f"لسورس", f"/alive", f"اضو"]) & filters.group & ~filters.edited
+    command(["برمج السورس", f"ؤمن", f"ورس", f"لسورس", f"مبرمج", f"اضو"]) & filters.group & ~filters.edited
 )
 async def alive(client: Client, message: Message):
     current_time = datetime.utcnow()
@@ -123,7 +123,7 @@ async def alive(client: Client, message: Message):
         ]
     )
 
-    alive = f"⚡️𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 [𓆩  ݪــيدو 𓆪](https://t.me/J0KER7x) \nاهلا بك في سورس جوكر سفن اكس الجمدان \nلو عايز تنصيب بوت ميوزك بأسعار حلوة  كلمني  "
+    alive = f"⚡️𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 [𓆩  ݪــيدو 𓆪](https://t.me/J0KER7x)\nاهلا بك في سورس جوكر سفن اكس الجمدان \nلو عايز تنصيب بوت ميوزك بأسعار حلوة  كلمني"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
