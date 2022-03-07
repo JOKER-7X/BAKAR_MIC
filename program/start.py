@@ -58,11 +58,14 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **مرحبا عزيزي ↤ {message.from_user.mention()} !**\n
-💭 **انا بوت استطيع تشغيل الموسيقي والفديو في محادثتك الصوتية**
+🤖 **[𝑩𝑨𝑲𝑨𝑹 𝑴𝑼𝑺𝑰𝑪 🎶](https://t.me/bakar10_bot) 🎶**
+💭 **انا بكار استطيع تشغيل الموسيقي والفيديو في محادثتك الصوتية**
 
 💡 تعلم طريقة تشغيلي واوامر التحكم بي عن طريق  » 📚 الاوامر !
 
 🔖 لتعلم طريقة تشغيلي بمجموعتك اضغط علي » ❓طريقة التفعيل !
+
+ **⚡️𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 [𓆩  ݪــيدو 𓆪](https://t.me/J0KER7x) **
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -75,7 +78,7 @@ async def start_(client: Client, message: Message):
                 [InlineKeyboardButton("❓ طريقة التفعيل", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 الاوامر", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ المطور", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("👨🏻‍💻 مبرمج السورس 👨🏻‍💻", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -87,7 +90,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "𓌹●↯‌•ᴅᴇᴠ ѕʜᴀᴅᴏᴡ•↯●𓌺", url="https://t.me/usddshad"
+                        "• 𝑩𝑨𝑲𝑨𝑹 𝑴𝑼𝑺𝑰𝑪 حساب مساعد •", url="https://t.me/MRLido7x"
                     )
                 ],
             ]
@@ -97,7 +100,7 @@ async def start_(client: Client, message: Message):
 
 
 @Client.on_message(
-    command(["برمج السورس", f"ؤمن", f"ورس", f"لسورس", f"ادو", f"اضو"]) & filters.group & ~filters.edited
+    command(["برمج السورس", f"ؤمن", f"ورس", f"لسورس", f"/alive", f"اضو"]) & filters.group & ~filters.edited
 )
 async def alive(client: Client, message: Message):
     current_time = datetime.utcnow()
@@ -107,20 +110,20 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("𓌹●↯‌•ᴅᴇᴠ ѕʜᴀᴅᴏᴡ•↯●𓌺", url=f"https://t.me/usddshad"),
+                InlineKeyboardButton("𓆩 آݪــمــبــرمــج ݪــيدو 𓆪", url=f"https://t.me/J0KER7x"),
             ],
             [
                 InlineKeyboardButton(
-                    "𝑬𝑹𝑹𝑶𝑹🖤", url=f"https://t.me/FA9SH"
+                    "𝑱𝑶𝑲𝑬𝑹7𝑿 𝑻𝑬𝑨𝑴", url=f"https://t.me/J0KER_7x"
                 ),
             ],
             [
-                InlineKeyboardButton("♡اضف البوت الى مجموعتك♡", url=f"https://t.me/USDDBOT?startgroup=true"),
+                InlineKeyboardButton("♡اضف البوت الى مجموعتك♡", url=f"https://t.me/bakar10_bot?startgroup=true"),
             ]
         ]
     )
 
-    alive = f"ᴘʀᴏɢʀᴀᴍᴍᴇʀ [ѕʜᴀᴅᴏᴡ](https://t.me/KB_Shadow) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼"
+    alive = f"⚡️𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 [𓆩  ݪــيدو 𓆪](https://t.me/J0KER7x) 𖡼\اهلا بك في سورس جوكر سفن اكس الجمدان 𖡼\nلو عايز تنصيب بوت ميوزك بأسعار حلوة  كلمني  𖡼"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
@@ -187,7 +190,7 @@ async def new_chat(c: Client, m: Message):
                         [
                             InlineKeyboardButton(
                         "♡اضـف الـبـوت لـمـجـمـوعـتـك♡",
-                        url=f'https://t.me/USDDBOT?startgroup=true'),
+                        url=f'https://t.me/bakar10_bot?startgroup=true'),
                         ],
                     ]
                 )
