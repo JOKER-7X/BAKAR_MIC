@@ -12,7 +12,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/J0KER_7x",
-    "repository": "https://github.com/USDDBOT/Shadow",
+    "repository": "https://github.com/JOKER-7X/BAKAR_MIC",
     "success_url": "https://t.me/J0KER_7x",
     "env": {
         "API_ID": {
@@ -30,7 +30,7 @@
         "BOT_USERNAME": {
             "description": "قم بوضع يوزر بوتك بدون علامة @",
             "required": true,
-            "value": "USDDBOT"
+            "value": "bakar10_bot"
         },
         "ASSISTANT_NAME": {
             "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
